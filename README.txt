@@ -8,22 +8,16 @@ Exercício 1 -  Demonstração de uso de APIs
 
 	The Movie DB.
 
-
 2) Utilidade
 
 	Coleta de dados sobre filmes e Fazer listas de filmes.
 
-
 3) Link ou endpoint
-
-	https://api.themoviedb.org/3/account/" + user_id + "/lists?page=1&session_id=" + session_id + "&language=en-US&api_key=" + key
-    
-
+	https://api.themoviedb.org/3/account/{user_id}/lists?page=1&session_id={session_id}&language=en-US&api_key={api_key}
 
 4) Possíveis recursos. 
 
 	Classificar filmes e criar listas.
-
 
 5) Métodos suportados
 
