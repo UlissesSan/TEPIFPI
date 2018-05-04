@@ -16,7 +16,8 @@ Exercício 1 -  Demonstração de uso de APIs
 
 3) Link ou endpoint
 
-	https://api.themoviedb.org
+	https://api.themoviedb.org/3/account/" + user_id + "/lists?page=1&session_id=" + session_id + "&language=en-US&api_key=" + key
+    
 
 
 4) Possíveis recursos. 
