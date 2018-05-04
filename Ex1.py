@@ -1,26 +1,3 @@
-"""
-API do The Movie DB
-
-1) Nome da API
-	The Movie DB
-
-2) Utilidade
-	Coleta de dados sobre filmes
-
-3) Link ou endpoint
-	https://api.themoviedb.org
-
-4) Possiveis recursos. 
-	Dados sobre filmes
-
-5) Metodos suportados
-	#Delete List
-	#Add Movie
-	#Get Details
-
-6) Exemplo(s) em python do metodo get
-7) Exemplo(s) em python do petodo post
-"""
 
 import requests
 
@@ -29,6 +6,7 @@ request_token = ""
 access_token = ''
 session_id = ''
 
+#meu usuario
 user_id = '7875054'
 
 # dominio da api
@@ -58,7 +36,7 @@ def add_movie_to_list(list_id, movie_id):
 
 
 # mostra o resustado da funcao na Tela (id da lsita que criei)
-#print(add_movie_to_list('64695', '591'))
+print(add_movie_to_list('64695', '591'))
 
 
 # chama o resultado da funcao List_movies na tela
